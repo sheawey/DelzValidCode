@@ -1,0 +1,23 @@
+{
+    "name": "delz/valid-code",
+    "description": "验证码组件",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "徐威",
+            "email": "sheawey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "delz/common": "dev-master",
+        "delz/cache": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Delz\\ValidCode\\": "src/Delz/ValidCode"
+        }
+    }
+}
