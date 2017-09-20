@@ -1,5 +1,5 @@
 # 验证码组件
-
+```php
     <?php
 
     use Delz\Cache\Provider\Apc;
@@ -39,6 +39,6 @@
     } else {
         //验证码不正确
     }
-    
+ ```  
 
 
